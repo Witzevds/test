@@ -1,0 +1,99 @@
+/*navigation-header*/
+nav {
+  background-color: #3a0097;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+nav h1 {
+  font-size: 20vw;
+}
+nav p {
+  font-size: 10vw;
+  text-align: center;
+}
+/*Hero*/
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e213c;
+}
+
+.explanation {
+  color: white;
+  font-size: 10vw;
+  text-align: center;
+  background-color: #3a0097;
+  min-height: 15rem;
+  padding: 3rem;
+}
+.explanation p {
+  font-size: 5vw;
+}
+
+/*why-videos*/
+.why {
+  background-color: #1e213c;
+  color: white;
+  font-size: 10vw;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.video-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  padding-top: 5rem;
+}
+/*requirements*/
+
+.requirements {
+  color: white;
+  font-size: 10vw;
+  text-align: center;
+  background-color: #3a0097;
+  min-height: 15rem;
+  padding: 3rem;
+}
+.requirements p {
+  font-size: 5vw;
+}
+/*calendly*/
+
+.calendly {
+  color: white;
+  font-size: 10vw;
+  text-align: center;
+  background-color: #1e213c;
+  min-height: 15rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendly p {
+  font-size: 5vw;
+}
+.calendly-box {
+  color: black;
+  width: 14rem;
+  height: 7rem;
+  background-color: white;
+  margin: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+/*footer*/
+footer {
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
