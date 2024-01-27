@@ -1,44 +1,121 @@
 /*navigation-header*/
+/*color
+190482
+7752FE
+8E8FFA
+C2D9FF
+
+*/
+
+/*FONTS*/
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+}
+p,
+a {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+}
 nav {
-  background-color: #3a0097;
+  background-color: #190482;
   display: flex;
-  flex-direction: column;
   align-items: center;
   color: aliceblue;
+  justify-content: space-between;
+  padding: 0 4rem;
+  position: fixed;
+  width: 100%;
+  max-height: 10rem;
+}
+
+nav img {
+  max-width: 5rem;
 }
 nav h1 {
-  font-size: 20vw;
+  font-size: 7rem;
 }
 nav p {
   font-size: 10vw;
   text-align: center;
 }
+/*Transform hamburger menu*/
+.menu-container {
+  position: relative;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+  transition: transform 0.5s, transform-origin 0.5s;
+  transform-origin: center;
+}
+.dropdown-menu a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown-menu {
+  display: none;
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #1e213c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.transform {
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.show-dropdown {
+  display: flex;
+  justify-content: space-around;
+}
+
 /*Hero*/
 
-.hero-image {
+.hero {
+  padding-top: 15rem;
   display: flex;
+  color: white;
   justify-content: center;
   align-items: center;
-  background-color: #1e213c;
+  background-color: #c2d9ff;
+  color: #190482;
+}
+.hero img {
+  max-width: 30rem;
+}
+.hero p {
+  padding-left: 5rem;
 }
 
 .explanation {
   color: white;
-  font-size: 10vw;
+
   text-align: center;
   background-color: #3a0097;
   min-height: 15rem;
   padding: 3rem;
-}
-.explanation p {
-  font-size: 5vw;
 }
 
 /*why-videos*/
 .why {
   background-color: #1e213c;
   color: white;
-  font-size: 10vw;
+
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -55,20 +132,18 @@ nav p {
 
 .requirements {
   color: white;
-  font-size: 10vw;
+
   text-align: center;
   background-color: #3a0097;
   min-height: 15rem;
   padding: 3rem;
 }
-.requirements p {
-  font-size: 5vw;
-}
+
 /*calendly*/
 
 .calendly {
   color: white;
-  font-size: 10vw;
+
   text-align: center;
   background-color: #1e213c;
   min-height: 15rem;
@@ -77,9 +152,7 @@ nav p {
   flex-direction: column;
   align-items: center;
 }
-.calendly p {
-  font-size: 5vw;
-}
+
 .calendly-box {
   color: black;
   width: 14rem;
