@@ -100,20 +100,28 @@ nav p {
 }
 .hero p {
   padding-left: 5rem;
+  width: 30rem;
 }
 
 .explanation {
   color: white;
 
   text-align: center;
-  background-color: #3a0097;
+  background-color: #190482;
   min-height: 15rem;
   padding: 3rem;
 }
 
+.explanation p {
+  max-width: 50vw;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
 /*why-videos*/
 .why {
-  background-color: #1e213c;
+  background-color: #c2d9ff;
   color: white;
 
   text-align: center;
@@ -127,6 +135,7 @@ nav p {
   gap: 5rem;
   align-items: center;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 /*requirements*/
 
@@ -134,7 +143,7 @@ nav p {
   color: white;
 
   text-align: center;
-  background-color: #3a0097;
+  background-color: #190482;
   min-height: 15rem;
   padding: 3rem;
 }
@@ -145,7 +154,7 @@ nav p {
   color: white;
 
   text-align: center;
-  background-color: #1e213c;
+  background-color: #190482;
   min-height: 15rem;
   padding: 3rem;
   display: flex;
